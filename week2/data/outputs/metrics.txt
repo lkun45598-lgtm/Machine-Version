@@ -1,0 +1,5 @@
+Image	MSE	PSNR(dB)
+noisy	816.582	19.011
+mean_5	95.087	28.350
+median_5	65.886	29.943
+gauss_5	87.765	28.698
