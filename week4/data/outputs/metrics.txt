@@ -1,0 +1,7 @@
+Image	ForegroundPx	ForegroundRatio
+original	43412	0.330884
+noisy	44211	0.336974
+erosion_5	38167	0.290907
+dilation_5	48558	0.370107
+opening_5	41084	0.313140
+closing_5	47704	0.363598
