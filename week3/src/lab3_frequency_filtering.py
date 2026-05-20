@@ -18,15 +18,14 @@ DEFAULT_OUTPUT_DIR = DATA_DIR / "outputs"
 
 
 def ensure_default_input(path: Path = DEFAULT_INPUT) -> Path:
-    """Use skimage.data.astronaut() as the standard test image for FFT experiments."""
+    """Use skimage.data.camera() — the classic cameraman grayscale photo for FFT demos."""
     if path.exists():
         return path
     from skimage import data
 
     path.parent.mkdir(parents=True, exist_ok=True)
-    rgb = data.astronaut()
-    bgr = cv2.cvtColor(rgb, cv2.COLOR_RGB2BGR)
-    cv2.imwrite(str(path), bgr)
+    gray = data.camera()
+    cv2.imwrite(str(path), gray)
     return path
 
 

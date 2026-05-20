@@ -1,6 +1,6 @@
 name, MSE, PSNR(dB)
-rect_lowpass vs spatial_gaussian, 633.313, 20.115
-gauss_lowpass vs spatial_gaussian, 52.082, 30.964
-ideal_lowpass vs spatial_gaussian, 568.512, 20.583
-butter_lowpass vs spatial_gaussian, 100.891, 28.092
-rect_highpass vs spatial_laplacian, 3045.181, 13.295
+rect_lowpass vs spatial_gaussian, 270.679, 23.806
+gauss_lowpass vs spatial_gaussian, 44.289, 31.668
+ideal_lowpass vs spatial_gaussian, 145.666, 26.497
+butter_lowpass vs spatial_gaussian, 26.255, 33.939
+rect_highpass vs spatial_laplacian, 4126.407, 11.975
