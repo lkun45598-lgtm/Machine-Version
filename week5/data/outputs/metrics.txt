@@ -1,0 +1,17 @@
+color_input	/data1/user/lz/Machine_Version/week5/data/input_images/vision_lab5_colorwheel.png
+texture_input	/data1/user/lz/Machine_Version/week5/data/input_images/vision_lab5_ihc.png
+color_shape	(370, 371, 3)
+texture_shape	(512, 512, 3)
+rotate_angle_deg	45.0
+yellow_hsv_range	H=[20,35] S>=100 V>=100
+yellow_pixels_raw	6369
+yellow_pixels_clean	6407
+yellow_contour_count	1
+yellow_contour_0	area=6256	centroid=(276.4,122.2)	bbox=(216,66,119,104)
+lbp_params	P=8,R=1,method=uniform,bins=10
+lbp_hist	0.0403,0.0690,0.0646,0.1353,0.2272,0.1555,0.0819,0.0691,0.0649,0.0922
+sift_keypoints_template	4454
+sift_keypoints_query	3512
+sift_good_matches	2439
+homography_inliers	2433
+homography_matrix	0.7072,-0.7071,256.2452;0.7072,0.7071,-106.1518;0.0000,-0.0000,1.0000

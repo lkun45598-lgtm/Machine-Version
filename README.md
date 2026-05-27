@@ -12,6 +12,7 @@ Machine-Version/
 ├── week2/          # 实验二：空间域邻域滤波
 ├── week3/          # 实验三：频率域滤波
 ├── week4/          # 实验四：形态学处理
+├── week5/          # 实验五：图像特征提取
 └── ...
 ```
 
@@ -33,6 +34,7 @@ weekN/
 | Week 2 | 空间域邻域滤波 | 均值 / 中值 / 高斯滤波；Prewitt / Sobel / Laplacian / Canny 边缘检测；图像代数运算 |
 | Week 3 | 频率域滤波 | 二维 FFT 幅度／相位谱；矩形高通/低通蒙版；空域 vs 频域对比；理想 / Butterworth / Gaussian 频域滤波 |
 | Week 4 | 形态学处理 | 腐蚀 / 膨胀 / 开 / 闭；轮廓提取；形态学梯度 / 顶帽 / 黑帽；击中击不中变换 |
+| Week 5 | 图像特征提取 | RGB ↔ HSV / Lab 通道分解；HSV 阈值黄色提取 + 轮廓与质心；LBP 均匀模式纹理特征；SIFT 关键点 + FLANN + Lowe ratio + RANSAC 单应对齐 |
 
 ---
 
